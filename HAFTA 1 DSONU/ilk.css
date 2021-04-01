@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    margin: 0%;
+background-color: rgb(255, 255, 255);    
+    
+}
+#üstkısım{
+    background-color: #34495e;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    text-align: center;
+    font-size:  20px;
+    padding: 15px;
+
+}
+font#üstsol
+{
+    float: left;
+  color: #3498db;  
+    font-weight: 800;
+
+
+}
+#üstkısım>i{
+    float: right;
+   color:  #3498db;
+    letter-spacing: 5px;
+
+}
+
+#üstkısım>i:hover{
+opacity: 0.3;
+}
+#alttaraf{
+    width: 80%;
+    margin: auto;    
+    height: 900px;
+
+}
+header{
+    width: 100%;
+    border: 300px;
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px 2px rgb(0, 0, 0); 
+}
+#üstfoto
+{
+    
+    width: 100%;
+    height: 349px;
+    opacity: 0.8;
+}
+#fotoüstüne{
+position: absolute;
+top: 10%;
+left: 40%;
+color: blanchedalmond;
+
+}
+section{
+    width: 100%;
+   
+    background-color: #34495e;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+    overflow: auto;
+}
+#sayfanınaltı{
+    margin-bottom: 10px;
+ 
+}
+
+nav{
+    width: 20%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-type: none;
+}
+nav li a{
+    color: #3498db;
+text-decoration: none;
+line-height: 37px;
+border-bottom: 1px solid rgb(17, 0, 255) ;
+padding-left: 15px;
+display: block;
+}
+nav li a:hover{
+color: rgb(18, 1, 255);    
+background-color: rgb(67, 65, 68);
+}
