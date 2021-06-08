@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="yatayaçılır.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Anasayfa</title>
+
+</head>
+
+<style>
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #bdc3c7;  
+  background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  
+  background: linear-gradient(to left, #2c3e50, #bdc3c7); 
+}
+.grid{
+    display: grid;
+    width: 1100px;
+    height: 1000px;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(5,150px);
+    
+}
+
+.bir
+{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.grid div:nth-child(1)
+{
+    grid-column: 1/10 ;
+}
+
+.grid div:nth-child(2)
+{
+    grid-column: 1/5;
+    grid-row: 2/5;
+    margin-top: 10px;
+}
+
+
+.grid div:nth-child(3)
+{
+    grid-column: 6/10;
+    grid-row: 2/5;
+    margin-top: 10px;
+}
+
+
+.grid div:nth-child(4)
+{
+    grid-column: 1/5;
+    grid-row:5/7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid div:nth-child(5)
+{
+    grid-column: 6/10;
+    grid-row:5/7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 18px;
+}
+dl
+{
+width: 395px;
+height: 394px;
+background-color: rgb(38, 82, 100);
+padding: 20px;
+border-radius: 15px;
+margin-top: 0px;
+position: relative;
+}
+.e{
+    width: 395px;
+    background-color: rgb(38, 82, 100);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+.asa
+{
+margin-top: 50px;
+background-image: url(FOTOĞRAFLAR/deerssss.png);
+width: 100%;
+}
+img{
+  width: 100%;
+  height: 100%; 
+}
+img:hover{
+  width: 102%;
+  height: 102%;
+  transition: 0.8s;
+}
+.footer {
+  background-color: #414141;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #0099ff;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+</style>
+
+  <nav>
+    <ul id="üstmenü">
+    
+  <div id="solüst"> <font> <strong> TEKNO-SMK </strong> </font>  
+    <i class="fas fa-search"></i></div>
+
+      <li><a href="ANASAYFA.html">Anasayfa</a></li>
+      
+      <li><a href="BENKİMİM.html">Ben Kimim?</a>
+      </li>
+      <li><a href="GALERİ.html">Galeri</a>
+       <ul>
+          <li><a href="FOTOĞRAFLAR.html">Fotoğraflar</a></li>
+          <li><a href="VİDEOLAR.html">Videolar</a></li> 
+        </ul>
+        </li>
+    
+       
+      <li><a href="BİZEKATIL.html">Bize Katıl</a>
+      <ul>
+      <li><a href="BAŞVUR.html">Başvur</a></li>
+    
+      <li><a href="ANKET.html">Anketimize Katıl</a></li>
+      </ul>
+      </li>
+      <li><a href="İLETİŞİM">İletişim</a>
+      <ul>
+        <li><a href="#">İnstagram</a></li>
+        <li><a href="#">Mail</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>      
+  </nav>
+
+  
+<div class="grid">
+    <div><center><h1 class="bir">RASPBERRY PI</h1></center></div>
+    <div class="e">
+       <h1><center> RASPBERRY PI NEDİR?? </center></h1>
+       <p>
+        Raspberry Pi kredi kartı boyutunda “gerçek bir bilgisayardır“. Tüm dünyada küçük yaştaki çocukların alıp programlamayı öğrenebilmesi için geliştirilmiştir. Raspberry Pi, bir bilgisayarın yapabileceği çoğu şeyi yapabilme kapasitesi, küçük boyutu ve uygun fiyatından dolayı herkes tarafından kullanılmaktadır.  </p>
+        <p>
+        Raspberry Pi’yi bir bilgisayar gibi kullanabilirsiniz. Bunun için monitör, klavye ve mouse bağlayıp ardından güç vermeniz yeterli. Yetenekli ve küçük bilgisayar Raspberry Pi ile masaüstü veya diz üstü bilgisayarlarınızda yapabildiğiniz işleri de(ofis Programları, internette gezinmek, video izlemek gibi) yapabilir, aynı zamanda oyunlar oynayabilirsiniz. Raspberry Pi 3 modeliyle birlikte gelen Wi-Fi ve Bluetooth özelliğiyle ise kablosuz olarak cihazlara bağlanabilir, internette dilediğiniz gibi gezinebilirsiniz. Ayrıca yüksek çözünürlüklü HD videolar oynatabilirsiniz.
+      
+        </p>
+    </div>
+    <div>
+     
+
+        <p >
+    
+            <dl>
+              <center>  <dt> <h1> RASPBERRY PI MODELLERİ </h1> </dt> </center>
+               
+                <dd>Model A</dd>
+                <dd>Model A+</dd>
+                <dd>Model B</dd>
+                <dd>Model B+</dd>
+                <dd>Raspberry Pi 2</dd>
+                <dd>Raspberry Pi 3</dd>
+                <dd>Raspberry Pi Zero</dd>
+                <dd>Raspberry Pi 3 B+</dd>
+                <dd>Raspberry Pi 4</dd>
+        
+                <br>
+                Raspberry Pi’yi tam fonksiyonlu bir bilgisayar olarak kullanabilmeniz için micro-HDMI bağlantıya sahip bir ekran veya televizyon ve ayrıca bir klavye-fare setine ihtiyaç duyacaksınız.
+                Tavsiyem, tek alıcıya sahip kablosuz bir klavye-fare seti edinmenizdir. Bu sayede kısıtlı sayıdaki USB portlarını tasarruflu kullanmış olursunuz. Çoğu Raspberry Pi modelleri, mikro USB tipinde bir güç beslemesi girişine sahiptir, güncel versiyonlarda ise Type-C bulunmaktadır.
+
+            </dl>
+            
+        </p>
+    </div>
+    <div class="asa">
+    <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">  <img class="ders" src="FOTOĞRAFLAR/deerssss.png" alt=""> </a>
+    </div>
+    <div class="asa">
+    <a href="https://www.youtube.com/watch?v=uqIqutWiyhc&list=PLDRcccSktQd6zXC4_ri_xxMsdgrH5MCPS">  <img src="FOTOĞRAFLAR/kamera1.png" alt=""> </a>
+    </div>
+</div>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> TEKNO-SMK</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
+      ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span> Karaköy Mahallesi 309 No'lu Sokak</span> Bartın, TÜRKİYE</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> 546 675 2001</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> office@company.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <h2> TEKNO-SMK<span> logo</span></h2>
+ 
+    <p class="name"> TEKNO-SMK &copy; 2021</p>
+  </div>
+</footer>
+
+ </html>

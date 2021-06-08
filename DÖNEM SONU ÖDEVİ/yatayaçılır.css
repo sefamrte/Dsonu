@@ -4,7 +4,10 @@ padding: 0;
 
 }
 nav{
-background-color: rgb(0, 0, 0);
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to left, #2c3e50, #bdc3c7); 
+  
 text-align: center;
 width: 101%;
 height: 60px;
@@ -32,8 +35,8 @@ animation-direction: alternate;
 }
 nav li ul {
 position: absolute;
-    z-index:2;  
-    text-align: left ;
+z-index:2;  
+text-align: left ;
 display: none;
 position: absolute;
 background-color: rgba(15, 15, 15, 0.844);
@@ -42,7 +45,7 @@ transition-duration: 0.7s;
 
 }
 nav li a:hover{
-background-color: rgba(15, 15, 15, 0.844);
+background-color: rgba(43, 22, 123, 0.844);
 transition-duration: 0.7s;   
 border: 5px double rgba(15, 15, 15, 0.844);
 
@@ -56,7 +59,7 @@ display: block;
 
 }
 #solüst{
-color: rgb(255, 255, 255);
+color: rgb(127, 160, 7);
 position: relative;
 top: 0;
 z-index: 1;
@@ -74,7 +77,7 @@ div i{
 float: right;
 padding: 15px 20px;
 font-size: 20px;
-animation: lefttop 2s linear infinite;
+animation: lefttop 10s linear infinite;
 animation-direction: alternate;
 
 }
@@ -85,7 +88,7 @@ top: 0;
 background-color: rgb(0, 0, 0);
 position: relative;
 line-height: 250%;
-border: rgb(255, 0, 0);
+border: rgb(255, 255, 255);
 
 }
 #heg > span {
@@ -95,26 +98,24 @@ font-size: 40px;
 color: rgb(0, 0, 0);
 vertical-align: baseline;
 position: absolute;
-animation: hegani 2s linear infinite;
+animation: hegani 10s linear infinite;
 animation-direction: alternate;
 }
-
 @keyframes hegani {
-0% {
-transform: translateY(-50px);
-color: pink
-}
-100% {
-transform: translateY(200px);
-color: blue
-}
-}
-@keyframes lefttop {
-0% {
-
-    color: pink
-}   
-100% {
+    0% {
+    transform: translateY(-50px);
+    color: rgb(0, 0, 0)
+    }
+    100% {
+    transform: translateY(200px);
+    color: rgb(0, 0, 0)
+    }
+    }
+    @keyframes lefttop {
+    0% {
     
-color:  blue
-}}
+        color: rgb(0, 0, 0)
+    }   
+    100% {
+        color: rgb(0, 0, 0)
+    }}

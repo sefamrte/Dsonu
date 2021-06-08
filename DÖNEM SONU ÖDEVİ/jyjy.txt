@@ -1,0 +1,47 @@
+ <div class="para">
+ <script type="text/javascript">var kurlist=",ONS,USD,EUR,GRA,YRA,1,";var genislik=290;var bbg="00304E";var yr="000000";var zbg="F7F7F7";var br="00304E";var by="Döviz Fiyatları"</script><ins data-client-id="mb-095720171805"></ins><a id="bplnk" href="https://www.dovizfiyat.com">Döviz Fiyatları</a><script type="text/javascript" src="https://www.dovizfiyat.com/eklenti/eklenti-min.js">
+ </script>
+</div>
+<div class="haber" style="font: normal 11px Arial; width: 390px; height: 450px; border: solid 1px #ccc; background: #fff; border-radius: 3px; box-shadow: 1px 1px 3px #ccc;">
+  <h2 style="padding: 8px; margin: 0; height: 25px; border: 0; border-bottom: solid 1px #ccc;">
+        <a href="https://www.trthaber.com/">
+            <img src="https://trthaberstatic.cdn.wp.trt.com.tr/static/images/siteneEkle/logo_a_v3.png" alt="TRT Haber Haberler" style="border: none 0;">
+        </a>
+    </h2>
+    <iframe frameborder="0" width="390" height="320" src="https://www.trthaber.com/sitene-ekle/gundem-1/?haberSay=10&renk=a&baslik=1&resimler=1"></iframe>
+    <div style="text-align: center;line-height: 23px;border-top: solid 1px #ccc; color: #666; margin-top: 5px;box-shadow: 0 -1px 3px #ccc;">
+        <a style="text-decoration: none;color: #666; font: normal 11px Arial;" href="https://www.trthaber.com/">En Son Haberler</a> &nbsp;|&nbsp; <a style="text-decoration: none;color: #666; font: normal 11px Arial;" href="https://www.trthaber.com/haber/gundem/">Gündem Haberleri</a>
+    </div>
+</div>
+<div>
+  <center >
+ <img class="pho" src="FOTOĞRAFLAR/anasayfa.jpg" alt="#">
+</center>
+ </div>
+
+
+
+
+
+
+.haber{
+  margin-top: -490px;
+  margin-left: 0px;
+  height: 700px;
+}  
+body{
+  background-image: url(FOTOĞRAFLAR/images.jpg);
+}
+.pho
+{
+  margin-top: 0px;
+  padding: 10px;
+  width: 700px;
+  height: 400px;
+}
+
+.para{
+  padding: 50px;
+  margin-top: 400px ;
+  margin-left: 1170px ;
+}
