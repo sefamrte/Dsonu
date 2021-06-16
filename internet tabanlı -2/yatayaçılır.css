@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+nav{
+
+
+background-color: 	black;    
+text-align: center;
+width: 100%;
+height: 60px;
+animation: lefttop 2s linear infinite;
+animation-direction: alternate;
+
+}
+nav ul {
+list-style-type: none;
+font-size: 18px;
+}
+nav li {
+display: inline-block;
+
+}
+nav li a {
+display: block;
+text-decoration: none;
+padding: 15px 20px;
+position: relative;
+top: 0;
+z-index: 1;
+animation: lefttop 2s linear infinite;
+animation-direction: alternate;
+
+}
+nav li ul {
+position: absolute;
+z-index:2;  
+text-align: left ;
+display: none;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.844);
+width: 180px;
+transition-duration: 0.7s;   
+
+}
+nav li a:hover{
+background-color: rgba(43, 22, 123, 0.844);
+transition-duration: 0.7s;   
+border: 5px double rgba(15, 15, 15, 0.844);
+
+}
+nav li:hover ul{
+display: flow-root;
+
+}
+nav li ul li {
+display: block;
+
+}
+#solüst{
+color: rgb(97, 113, 40);
+position: relative;
+top: 0;
+z-index: 1;
+font-size: 28px;
+animation: lefttop 2s linear infinite;
+animation-direction: alternate;
+
+}
+font{
+float: left;
+padding: 15px 5px;
+
+}
+div i{
+float: right;
+padding: 15px 20px;
+font-size: 20px;
+animation: lefttop 10s linear infinite;
+animation-direction: alternate;
+
+}
+#heg{
+width: 70px;
+height: 700px;
+top: 0;
+background-color: rgb(0, 0, 0);
+position: relative;
+line-height: 250%;
+border: rgb(255, 255, 255);
+
+}
+#heg > span {
+
+left: 20px;
+font-size: 40px;
+color: rgb(0, 0, 0);
+vertical-align: baseline;
+position: absolute;
+animation: hegani 10s linear infinite;
+animation-direction: alternate;
+}
+@keyframes hegani {
+    0% {
+    transform: translateY(-50px);
+    color: white;
+    }
+    100% {
+    transform: translateY(200px);
+    color: white;
+    }
+    }
+    @keyframes lefttop {
+    0% {
+    
+        color: white;
+    }   
+    100% {
+        color: white;
+    }}
